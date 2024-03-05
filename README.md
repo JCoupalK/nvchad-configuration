@@ -1,4 +1,4 @@
-# My NVChad configuration for NeoVim 
+# My NVChad configuration for Neovim 
 
 Includes my theme, mappings, plugins and language server configurations.
 
