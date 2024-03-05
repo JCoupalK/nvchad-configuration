@@ -5,6 +5,7 @@ Includes my theme, mappings, plugins and language server configurations.
 LSP servers for Go, Bash, Python, YAML, JSON, HTML, CSS, JS, Dockerfile and Lua. 
 
 Those language servers needs to be installed:
+
     "lua-language-server",
     "bash-language-server",
     "pyls",
