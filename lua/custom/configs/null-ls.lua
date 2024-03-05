@@ -4,17 +4,17 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local opts = {
   sources = {
     -- Go
-    null_ls.builtins.formatting.gofumpt,
-    null_ls.builtins.formatting.goimports_reviser,
-    null_ls.builtins.formatting.golines,
+    null_ls.builtins.formatting.gofumpt,           -- Go formatting
+    null_ls.builtins.formatting.goimports_reviser, -- Go formatting
+    null_ls.builtins.formatting.golines,           -- Go formatting
 
     -- Bash
-    null_ls.builtins.formatting.shfmt,  -- Bash formatting
-    null_ls.builtins.diagnostics.shellcheck,  -- Bash diagnostics
+    null_ls.builtins.formatting.shfmt,       -- Bash formatting
+    null_ls.builtins.diagnostics.shellcheck, -- Bash diagnostics
 
     -- Python
-    null_ls.builtins.formatting.black,  -- Python formatting
-    null_ls.builtins.diagnostics.flake8,  -- Python diagnostics
+    null_ls.builtins.formatting.black, -- Python formatting
+
   },
   on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then

@@ -4,6 +4,13 @@ local plugins = {
     opts = {
       ensure_installed = {
         "gopls",
+        "lua-language-server",
+        "bash-language-server",
+        "pyls",
+        "docker-langserver",
+        "html-languageserver",
+        "vscode-json-languageserver",
+        "yaml-language-server"
       },
     },
   },
