@@ -9,6 +9,7 @@ Those language servers needs to be installed:
     "lua-language-server",
     "bash-language-server",
     "pyls",
+    "gopls",
     "docker-langserver",
     "html-languageserver",
     "vscode-json-languageserver",
